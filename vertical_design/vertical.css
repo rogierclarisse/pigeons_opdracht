@@ -1,0 +1,103 @@
+html {
+    overflow-x: hidden;
+}
+
+p {
+    color: white;
+}
+
+.middenschip {
+    /* display: flex; */
+    position: absolute;
+}
+
+.content {
+    position: fixed;
+    width: 70%;
+    height: 500px;
+    top: -370px;
+    left: 100px;
+    background-color: aqua;
+    z-index: 0;
+}
+
+/* @media screen and (min-width: 480px) { */
+body {
+    background-color: black;
+    margin: 0;
+    /* padding: 0 0 0 8%; */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.projet {
+    display: block;
+    color: #fbf6d9;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 8vw;
+    margin: 0;
+    font-family: hwt-arabesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.part_one {
+    width: 50%;
+    display: flex;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+/* .kader is de container van het logo */
+.kader {
+    width: 15%;
+    position: relative;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+}
+
+/* het logo neemt 100% van de breedte in van .kader */
+.logo {
+    width: 100%;
+    position: absolute;
+
+}
+
+.part_two {
+    width: 40%;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    left: 0;
+    padding-top: 20px;
+    margin-left: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #fbf6d9;
+    display: block;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 7vw;
+    line-height: 0.8em;
+    font-family: hwt-arabesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* klasse voor de dropdown letters van de header, aanpassing vd hoogte */
+.letters {
+    color: red;
+    /* margin-left: 1rem; */
+    font-weight: 350;
+    font-style: normal;
+    font-size: 7vw;
+    line-height: 9vh;
+}
+
+.image_container {
+    display: inline-block;
+}
